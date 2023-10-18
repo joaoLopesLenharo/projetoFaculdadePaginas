@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - GourmetDelights</title>
+    <!-- Inclua o Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .background-violet {
+            background: linear-gradient(to bottom, #800080, #87CEEB);
+        }
+    </style>
+</head>
+<body class="background-violet">
+
+<!-- Cabeçalho -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="home.html"><img src="logo.png" alt="GourmetDelights" class="'logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Página Inicial</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sobre-nos.html">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Menu -->
+<div class="container" id="menu">
+    <h1>Menu</h1>
+    <!-- Categoria: Entradas -->
+    <h2>Entradas</h2>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="entrada1.jpg" class="card-img-top" alt="Entrada 1">
+                <div class="card-body">
+                    <h5 class="card-title">Entrada 1</h5>
+                    <p class="card-text">Descrição da entrada 1.</p>
+                    <p class="card-text">Preço: R$ 15,00</p>
+                </div>
+            </div>
+        </div>
+        <!-- Adicione mais pratos de entrada aqui -->
+    </div>
+    <!-- Categoria: Prato Principal -->
+    <h2>Prato Principal</h2>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="prato1.jpg" class="card-img-top" alt="Prato Principal 1">
+                <div class="card-body">
+                    <h5 class="card-title">Prato Principal 1</h5>
+                    <p class="card-text">Descrição do prato principal 1.</p>
+                    <p class="card-text">Preço: R$ 30,00</p>
+                </div>
+            </div>
+        </div>
+        <!-- Adicione mais pratos principais aqui -->
+    </div>
+    <!-- Categoria: Sobremesas -->
+    <h2>Sobremesas</h2>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="sobremesa.jpg" class="card-img-top" alt="Sobremesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Sobremesa 1</h5>
+                    <p class="card-text">Descrição da sobremesa 1.</p>
+                    <p class="card-text">Preço: R$ 10,00</p>
+                </div>
+            </div>
+        </div>
+        <!-- Adicione mais sobremesas aqui -->
+    </div>
+</div>
+
+<!-- Inclua o Bootstrap JS e jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

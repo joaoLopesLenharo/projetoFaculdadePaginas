@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - GourmetDelights</title>
+    <!-- Inclua o Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .background-violet {
+            background: linear-gradient(to bottom, #800080, #87CEEB);
+        }
+    </style>
+</head>
+<body class="background-violet">
+
+<!-- Cabeçalho -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="home.html"><img src="logo.png" alt="GourmetDelights" class="'logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Página Inicial</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sobre-nos.html">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Galeria -->
+<div class="container" id="galeria">
+    <h1>Galeria</h1>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="galeria1.jpg" class="card-img-top" alt="Galeria 1">
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="galeria2.jpg" class="card-img-top" alt="Galeria 2">
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="galeria3.jpg" class="card-img-top" alt="Galeria 3">
+            </div>
+        </div>
+        <!-- Adicione mais imagens da galeria aqui -->
+    </div>
+</div>
+
+<!-- Inclua o Bootstrap JS e jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
